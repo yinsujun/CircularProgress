@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorProgressView">
+        <attr name="reachColor" format="color"/>
+        <attr name="unReachColor" format="color"/>
+        <attr name="topFloorTextColor" format="color"/>
+        <attr name="topTextColor" format="color"/>
+        <attr name="centerTextColor" format="color"/>
+        <attr name="bottomTextColor" format="color"/>
+        <attr name="stokeWith" format="integer"/>
+        <attr name="topFloorTextSize" format="integer"/>
+        <attr name="topTextSize" format="integer"/>
+        <attr name="centerTextSize" format="integer"/>
+        <attr name="bottomTextSize" format="integer"/>
+    </declare-styleable>
+</resources>

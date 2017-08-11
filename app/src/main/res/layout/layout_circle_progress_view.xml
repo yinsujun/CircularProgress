@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mylibrary.CircleProgressView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/progress_view"
+        app:unReachColor="@color/unReachColor"
+        app:reachColor="@color/blue"
+        app:topFloorTextColor="@color/colorAccent"
+        app:bottomTextColor="@color/blue"
+        app:centerTextColor="@color/blue"
+        app:stokeWith="20"
+        app:topFloorTextSize="10"
+        app:topTextSize="14"
+        app:centerTextSize="30"
+        app:bottomTextSize="14"
+        />
+</RelativeLayout>
