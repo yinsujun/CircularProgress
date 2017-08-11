@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.mylibrary.CircleProgressView
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:id="@+id/progress_view"
         app:unReachColor="@color/unReachColor"
         app:reachColor="@color/blue"
@@ -16,8 +14,29 @@
         app:centerTextColor="@color/blue"
         app:stokeWith="20"
         app:topFloorTextSize="10"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         app:topTextSize="14"
         app:centerTextSize="30"
         app:bottomTextSize="14"
         />
-</RelativeLayout>
+    <com.mylibrary.ColorArcProgressBar
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/color_progress_bar"
+        app:is_need_content="true"
+        app:front_color1="#69e2d5"
+        app:front_color2="#69e2d5"
+        app:front_color3="#d0d234"
+        app:max_value="100"
+        app:back_width="14dp"
+        app:front_width="14dp"
+        app:total_engle="-300"
+        app:start_angle="420"
+        app:is_need_unit="false"
+        app:is_need_title="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:string_title="中间文字"
+        />
+</LinearLayout>
